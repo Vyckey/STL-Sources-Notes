@@ -1,1 +1,406 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"array"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"re",
+				"replace"
+			],
+			[
+				"bi",
+				"bi_tree"
+			],
+			[
+				"fre",
+				"freeTree"
+			],
+			[
+				"dele",
+				"deleteTree"
+			],
+			[
+				"open",
+				"opencv2"
+			],
+			[
+				"bit",
+				"BiTree"
+			],
+			[
+				"cout",
+				"countSort"
+			],
+			[
+				"cou",
+				"counter"
+			],
+			[
+				"is",
+				"isSorted"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"string",
+				"StringSet"
+			],
+			[
+				"prin",
+				"print"
+			],
+			[
+				"_me",
+				"_merge"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"pin",
+				"printSeq"
+			],
+			[
+				"so",
+				"sortAndTime"
+			],
+			[
+				"pr",
+				"printSeq"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"image",
+				"image"
+			],
+			[
+				"pix",
+				"pixIndex"
+			],
+			[
+				"width",
+				"widthStep"
+			],
+			[
+				"max",
+				"MAX_COMPUTE_PIX_SIZE"
+			],
+			[
+				"ker",
+				"kernelHeight"
+			],
+			[
+				"ke",
+				"kernelHeight"
+			],
+			[
+				"con",
+				"convolutionKernel"
+			],
+			[
+				"ima",
+				"imageData"
+			],
+			[
+				"iam",
+				"imageData"
+			],
+			[
+				"dev",
+				"devMem"
+			],
+			[
+				"wid",
+				"widthStep"
+			],
+			[
+				"wi",
+				"widthStep"
+			],
+			[
+				"il",
+				"IplImage"
+			],
+			[
+				"mpi",
+				"mpi_argc"
+			],
+			[
+				"MP",
+				"MPI_Comm_rank"
+			],
+			[
+				"get",
+				"getImageInfo"
+			],
+			[
+				"pth",
+				"pthread_t"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "PackageR",
+		"selected_items":
+		[
+			[
+				"PackageR",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sunxin/stl_notes/sources"
+	],
+	"file_history":
+	[
+		"/home/sunxin/stl_notes/comm.md",
+		"/home/sunxin/stl_notes/sources/vector",
+		"/home/sunxin/stl_notes/sources/stl_vector.h",
+		"/home/sunxin/stl_notes/contain/comm.md",
+		"/home/sunxin/stl_notes/contain/vector.md",
+		"/home/sunxin/stl_notes/co",
+		"/home/sunxin/stl_notes/README.md",
+		"/home/sunxin/stl_notes/sources/concept_checks.h",
+		"/home/sunxin/stl_notes/sources/stl_config.h",
+		"/home/sunxin/stl_notes/sources/vector.h",
+		"/home/sunxin/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+		"/home/sunxin/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+		"/home/sunxin/.config/sublime-text-3/Packages/User/PackageResourceViewer.sublime-settings",
+		"/home/sunxin/.config/sublime-text-3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/home/sunxin/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/sunxin/stl_notes/sources/algo.sublime-project",
+		"/home/sunxin/code/data_structure/tl_bi_tree_comm.h",
+		"/home/sunxin/code/data_structure/tl_rb_tree.h",
+		"/home/sunxin/code/tester.cpp",
+		"/home/sunxin/code/data_structure/tl_bi_tree.h",
+		"/home/sunxin/code/data_structure/tl_tree.h",
+		"/home/sunxin/CoreCV/corecv.cpp",
+		"/home/sunxin/code/sort/tl_sort_comm.h",
+		"/home/sunxin/code/string/tl_string.h",
+		"/home/sunxin/code/sort/tl_sort.h",
+		"/home/sunxin/code/find/tl_find.h",
+		"/home/sunxin/code/tester",
+		"/home/sunxin/code/sort/sort.h",
+		"/home/sunxin/code/sort/sort.h.gch",
+		"/home/sunxin/code/data_structure/tl_heap.h",
+		"/home/sunxin/code/data_structure/heap.h",
+		"/home/sunxin/code/data_structure/priority_queue.h",
+		"/home/sunxin/code/sort/tester.cpp",
+		"/home/sunxin/code/sort/Makefile",
+		"/home/sunxin/code/sort/tl_sort.cpp",
+		"/home/sunxin/code/sort/sort.cpp",
+		"/home/sunxin/homepage/index.html",
+		"/home/sunxin/doc/code/project1/soduku_parallel/soduku_parallel.cpp",
+		"/home/sunxin/doc/code/lab1/lab1.cpp",
+		"/home/sunxin/doc/code/project1/soduku_serial/soduku_serial.cpp",
+		"/home/sunxin/doc/code/project1/soduku_serial.cpp",
+		"/home/sunxin/MapReduce/PageRank/PageRankMapper.py",
+		"/home/sunxin/MapReduce/PageRank/PageRankReducer.py",
+		"/home/sunxin/MapReduce/PageRank/hadoop.bash",
+		"/home/sunxin/MapReduce/PageRank/SortMapper.py",
+		"/home/sunxin/MapReduce/PageRank/SortReducer.py",
+		"/home/sunxin/MapReduce/mapper.py",
+		"/home/sunxin/MapReduce/reducer.py",
+		"/home/sunxin/doc/code/lab4/lab4.cpp",
+		"/home/sunxin/cuda.cu",
+		"/home/sunxin/doc/code/lab4.cpp",
+		"/home/sunxin/doc/code/lab3/lab3.cpp",
+		"/home/sunxin/doc/code/lab2/lab2.cpp",
+		"/home/sunxin/doc/code/lab5/lab5.cu",
+		"/home/sunxin/doc/code/828/main.cpp",
+		"/home/sunxin/doc/code/lab5/a.cpp",
+		"/home/sunxin/doc/code/lab5/lab5.cpp",
+		"/home/sunxin/doc/code/lab1.cpp",
+		"/usr/share/applications/sublime.desktop"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tsize_t",
+			"bi_tree",
+			"NULL",
+			"BiTree",
+			"sumIndex",
+			"devMem",
+			"cout",
+			"argc"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bi_tree<T1, T2>",
+			"bi_tree",
+			"RBTree"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "algo.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
