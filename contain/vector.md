@@ -61,13 +61,16 @@
 	* 显示说明空间配置器构造
 	* 构造包含n个元素的vector，可提供初始值，默认使用无参构造。
 	* 使用iterator进行构造，提供begin和end。
+2. 元素只能向后增长，可在vector中任意合法位置插入任意数量的元素。
+3. vector特有容量capacity属性。
+
 ## 2. 宏说明
 
 1. __STL_USE_STD_ALLOCATORS: 使用STD空间配置器
-2. __STL_CLASS_PARTIAL_SPECIALIZATION
-3. __STL_HAS_NAMESPACES
+2. __STL_CLASS_PARTIAL_SPECIALIZATION: 类特例化
+3. __STL_HAS_NAMESPACES: 如果有命名空间
 4. __STL_THROW_RANGE_ERRORS: STL范围越界错误
-5. __STL_MEMBER_TEMPLATES	
+5. __STL_MEMBER_TEMPLATES 针对5种迭代器的成员模板
 
 ## 3. 继承关系
 	<class _Tp, class _Alloc = __STL_DEFAULT_ALLOCATOR(_Tp)>
@@ -97,14 +100,20 @@
 ## 6. 存储相关
 1. 空间配置有２种方式，STD空间配置和自定义空间配置。由空间配置器管理_M_start，_M_finish，_M_end_of_storage这３种指针，初始化默认不分配空间，以n个元素初始化则使用空间大小为n的分配空间。
 2. _M_*操作。
-	* _M_allocate
-	* _M_deallocate
-	* _M_fill_assign 使用新值填充[start, end)空间
-	* _M_fill_insert
-	* _M_assign_aux
-	* _M_assign_dispatch
-	* _M_insert_aux 超容插入
-	* _M_insert_dispatch
+	* _M_allocate 针对空间配置器的存储分配
+	* _M_deallocate　针对空间配置器的存储释放
+	* _M_fill_assign 使用新值填充n个元素的空间
+	* _M_fill_insert 填充插入ｎ个元素，可选值
 	* _M_allocate_and_copy 分配n个元素空间，并复制n个元素
-	* _M_range_initialize
-	* _M_range_insert
+	* _M_range_check 检查访问元素是否越界
+	* **以下针对５种迭代器**
+	* _M_range_initialize 初始化[__first, __last)
+	* _M_range_insert 把[__first, __last)插入到[..., __pos)
+	* _M_initialize_aux 初始化
+        * _M_assign_aux 使用[__first, __last)范围元素对vector赋值
+        * _M_assign_dispatch
+	* _M_insert_aux 超容插入１个元素
+
+## 7. 迭代器iterator
+* 迭代器不占用额外空间。
+* 迭代器使用类型指针。
